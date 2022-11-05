@@ -15,3 +15,34 @@ spring:
 
 mybatis:
   mapper-locations: classpath*:mapper/*Mapper.xml
+
+wx:
+  config:
+    appId: "wx405d299b0da7c004"
+    appSecret: "e274f5562f9ce9d9e158387439ae30d0"
+    #模板Id
+    templateId: "qJSS09hOPjxeFIQvRGCcvXpzfCGpWaJaIg6KsVOUuOI"
+    openidList:
+      - "opByL5jskn-tZedmigC3HZGjSB6c~即墨"
+      #- "opByL5ljvY6lDCKOFJRNYB7uV_Mo~即墨"
+      #- "opByL5k5aC521Edn8PRq-qR9xnY0~闵行"
+      #- "opByL5g1hkMO-JXxWll7TFk0e_Hg~灞桥"
+      #- "opByL5qRipPKZ2WQKgZocPnx5JRo~市北"
+
+message:
+  config:
+    birthday1: "11-20" #生日日期
+    birthday2: "08-31"
+    togetherDate: "2021-04-23" #填你们在一起的那天日期
+    message: "Have a happy day and love you"
+    newYear: "2023-01-22 00:00:00"
+#去申请 https://tianqiapi.com/user/login
+weather:
+  config:
+    appid: "91297413"
+    appSecret: "KrCd7g6J"
+    city: "闵行"
+#注册并购买第二档次，有券，直接白嫖 https://www.apispace.com/eolink/api/myjj/introduction
+ApiSpace:
+  enableDaily: true #【新增功能】  true：开启每日一句，false：则不开启
+  token: "srkrv06r7xk4zyt27t1kopjz3uucqllg"
